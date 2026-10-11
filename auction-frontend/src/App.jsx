@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
-import Auctions from "./pages/Auctions";
-import AuctionDetails from "./pages/AuctionDetails";
-import CreateAuction from "./pages/CreateAuction";
-import Profile from "./pages/Profile";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Auctions from "./pages/auctions";
+import AuctionDetails from "./pages/auctionDetails";
+import CreateAuction from "./pages/createAuction";
+import Profile from "./pages/profile.jsx";
 
 function App() {
   return (
